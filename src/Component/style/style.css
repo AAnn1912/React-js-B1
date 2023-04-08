@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+}
+
+.container {
+    padding: 15px 10%;
+}
+
+.head-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #8d8883;
+    margin-left: 25px;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.menu a.active {
+    color: white;
+}
+
+.menu a:hover {
+    color: #c7c8c9;
+}
+
+.banner {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.waller {
+    background-color: #f8f9fa;
+    line-height: 1.5;
+    padding: 25px 5%;
+}
+
+.waller button {
+    font-size: 22px;
+    padding: 15px 25px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    border: transparent;
+    border-radius: 15px;
+    color: white;
+    background-color: #0d6efd;
+    transition: 0.5s;
+}
+
+.waller button:hover {
+    background-color: #0b5ed7;
+}
+
+.waller h2 {
+    font-size: 48px;
+}
+
+.waller p {
+    font-size: 24px;
+}
+
+.list_item {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 25px;
+}
+
+.list_item .item {
+    text-align: center;
+    padding: 15px;
+    background-color: #f8f9fa;
+    line-height: 1.5;
+    position: relative;
+}
+
+.list_item .item i {
+    font-size: 32px;
+    position: absolute;
+    top: -20px;
+    left: 45%;
+    background-color: #2a7ffd;
+    border-radius: 15px;
+    color: white;
+    padding: 3%;
+}
+
+.list_item .item h3 {
+    margin-top: 35px;
+    font-size: 24px;
+}
+
+.list_item .item p {
+    padding: 2% 10%;
+}
+
+.footer {
+    padding: 25px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
