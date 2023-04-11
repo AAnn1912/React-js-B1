@@ -3,18 +3,12 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import Header from "./Component/Header";
-import Banner from "./Component/Banner";
-import Items from "./Component/Items";
-import Footer from "./Component/Footer";
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div>
-    <Header />
-    <Banner />
-    <Items />
-    <Footer />
+    <App />
   </div>
 );
 
