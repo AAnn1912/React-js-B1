@@ -91,7 +91,7 @@ header {
     position: relative;
 }
 
-.list_item .item i {
+.list_item .item .bx {
     font-size: 32px;
     position: absolute;
     top: -20px;
